@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e29a1cd59aa11e48b0094a4ed015a47, type: 3}
+  m_Name: M4A1 Shoot Config
+  m_EditorClassIdentifier: 
+  IsHitscan: 1
+  BulletPrefab: {fileID: 4134854555783104936, guid: 22cdbfeadea953c4d814da4bd2adad68,
+    type: 3}
+  BulletSpawnForce: 800
+  HitMask:
+    serializedVersion: 2
+    m_Bits: 385
+  FireRate: 0.1
+  SpreadType: 1
+  RecoilRecoverySpeed: 2
+  MaxSpreadTime: 0.9
+  BulletWeight: 0.1
+  ShootType: 0
+  Spread: {x: 0.06, y: 0.06, z: 0.06}
+  SpreadMultiplier: 0.05
+  SpreadTexture: {fileID: 2800000, guid: 73cee0f2b9968314d8279958263885a5, type: 3}
