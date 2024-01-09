@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace LlamAcademy.Guns
 {
-    [CreateAssetMenu(fileName = "Ammo Config", menuName = "Guns/Ammo Config", order = 7)]
+    [CreateAssetMenu(fileName = "Knockback Config", menuName = "Guns/Knockback Config", order = 8)]
     public class KnockbackConfigScriptableObject : ScriptableObject, System.ICloneable
     {
         public float KnockbackStrength = 25000;
